@@ -26,7 +26,6 @@ trait ServiceAtackSys  extends SparkServiceTrait {
       // log file folder location
       val fileLogLoc = appContext.config.getString("APPACHE_LOG_LOC")
 
-
       // file name lost
       val file = getListOfFiles(fileLogLoc)
 
@@ -195,10 +194,18 @@ trait ServiceAtackSys  extends SparkServiceTrait {
         // Current kafka offset logs insert to history log table
         sparkExecutor.sql.insertTable(ddottackHys, dsApplyDateFormat, s"Mocked existing source data for", "PH", "", new TimestampConverter())
 
-       //Write the DDOS attack ipaddress to file
+
+        //Old and current ddos ipaddress get
+
+        val ddosAttacjIpAddress = getFileData(DdosFileLoc, ",").toDF("ipAddress")
+          .union(getDdosAttckStats.filter("diff > " + intervelTime + "").select("ipAddress")).distinct()
+
+
+
+        //Write the DDOS attack ipaddress to file
         val file = new File(DdosFileLoc)
         val bw = new BufferedWriter(new FileWriter(file))
-        bw.write(getDdosAttckStats.filter("diff > " + intervelTime + "").select("ipAddress").collect().mkString("\n").replace("[", "").replace("]", ""))
+        bw.write(ddosAttacjIpAddress.collect().mkString("\n").replace("[", "").replace("]", ""))
         bw.close()
 
         // Save the last offset to kafka transaction table

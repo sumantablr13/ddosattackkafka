@@ -15,8 +15,8 @@
       <file leaf-file-name="SuitAtackSys.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/service/dwh/SuitAtackSys.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="-930">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -24,8 +24,8 @@
       <file leaf-file-name="ServiceAtackSys.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/ServiceAtackSys.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1960">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="141">
+              <caret line="197" column="44" selection-start-line="197" selection-start-column="44" selection-end-line="197" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/common/KafkaOffsetPersistance.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/rxcorp/ph/ddos/service/dwh/SuitAtackSys.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/rxcorp/bdf/datalake/phdata/service/dwh/SuitAtackSys.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/ServiceAtackSys.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/service/dwh/SuitAtackSys.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/ServiceAtackSys.scala" />
       </list>
     </option>
   </component>
@@ -334,9 +334,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuitAtackSys_ProcessDwhStream_should_load_apache_log_and_get_the_DDOS_attack_Ip_address - 2020.12.13 at 12h 02m 51s.xml">
-      <configuration name="SuitAtackSys.ProcessDwhStream should load apache log and get the DDOS attack Ip address" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="SuitAtackSys_ProcessDwhStream_should_load_apache_log_and_get_the_DDOS_attack_Ip_address - 2020.12.13 at 12h 03m 20s.xml">
       <configuration name="SuitAtackSys.ProcessDwhStream should load apache log and get the DDOS attack Ip address" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -361,9 +358,16 @@
     <history-entry file="SuitAtackSys_ProcessDdosAttack_should_load_apache_log_and_get_the_DDOS_attack_Ip_address - 2020.12.13 at 13h 31m 34s.xml">
       <configuration name="SuitAtackSys.ProcessDdosAttack should load apache log and get the DDOS attack Ip address" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="SuitAtackSys_ProcessDdosAttack_should_load_apache_log_and_get_the_DDOS_attack_Ip_address - 2020.12.13 at 15h 51m 10s.xml">
+      <configuration name="SuitAtackSys.ProcessDdosAttack should load apache log and get the DDOS attack Ip address" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="SuitAtackSys_ProcessDdosAttack_should_load_apache_log_and_get_the_DDOS_attack_Ip_address - 2020.12.13 at 15h 58m 10s.xml">
+      <configuration name="SuitAtackSys.ProcessDdosAttack should load apache log and get the DDOS attack Ip address" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,18 +376,18 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.1895811" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41931686" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.12244898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41931686" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18474758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.614841" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -424,6 +428,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>ddosAttacjIpAddress.show(false)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getFileData(DdosFileLoc, &quot;,&quot;).toDF(&quot;ipAddress&quot;).show(false)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputFileLogData1.show(false)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -457,15 +485,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/service/dwh/SuitAtackSys.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="-930">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/rxcorp/bdf/datalake/dk9/ndh/loadAsset/ServiceAtackSys.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="141">
+          <caret line="197" column="44" selection-start-line="197" selection-start-column="44" selection-end-line="197" selection-end-column="44" />
         </state>
       </provider>
     </entry>
