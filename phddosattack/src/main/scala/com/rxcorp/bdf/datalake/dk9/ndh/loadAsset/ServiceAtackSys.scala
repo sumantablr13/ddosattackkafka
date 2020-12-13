@@ -197,8 +197,11 @@ trait ServiceAtackSys  extends SparkServiceTrait {
 
         //Old and current ddos ipaddress get
 
-        val ddosAttacjIpAddress = getFileData(DdosFileLoc, ",").toDF("ipAddress")
+        val ddosAttacjIpAddress = if(getFileData(DdosFileLoc, ",").count()>0)getFileData(DdosFileLoc, ",").toDF("ipAddress")
           .union(getDdosAttckStats.filter("diff > " + intervelTime + "").select("ipAddress")).distinct()
+        else
+          getDdosAttckStats.filter("diff > " + intervelTime + "").select("ipAddress").distinct()
+
 
 
 

@@ -86,9 +86,9 @@ class SuitAtackSys extends NdhUnitTest {
     )
 
     val ddAttackHys = new DdosAttackHys(appContext)
-    println(" Load the log file into the hys table")
+    println(" Load the log file into the history table")
     spark.table(ddAttackHys.tableName).show(200, false)
-   println("Total log hystory load::"+ spark.table(ddAttackHys.tableName).count())
+   println("Total log history load::"+ spark.table(ddAttackHys.tableName).count())
     assert(spark.table(ddAttackHys.tableName).count() > 2)
   }
 }
