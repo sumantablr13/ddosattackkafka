@@ -19,8 +19,8 @@ import scala.io.Source
 class SuitAtackSys extends NdhUnitTest {
 
   // test starts
-  behavior of "ProcessDwhStream"
-  lazy val stage = "ProcessDwhStream test"
+  behavior of "ProcessDdosAttack"
+  lazy val stage = "ProcessDdosAttack test"
   @transient private var sparkExecutor: SparkExecutor = _
   @transient private var spark: SparkSession = _
   @transient private var TopicName: String = "Sumanta"

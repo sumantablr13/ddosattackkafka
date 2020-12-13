@@ -102,7 +102,7 @@ trait ServiceAtackSys  extends SparkServiceTrait {
       sparkExecutor.kafka.sendEventToKafka(strEvent, "Kafka message send", TopicName)
 
       //Read the event
-      readEvent(1)
+      readEvent()
 
     }
 
@@ -119,7 +119,7 @@ trait ServiceAtackSys  extends SparkServiceTrait {
     totalSlice
   }
 
-  final protected def readEvent(totalOffset: Long) = {
+  final protected def readEvent() = {
 
     var kafkaTopicName = appContext.config.getString("KAFKA_TOPIC_PH_DATA").trim
     val DdosFileLoc = appContext.config.getString("DDOS_FILE_LOC").trim
