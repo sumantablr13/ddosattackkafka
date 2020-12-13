@@ -1,0 +1,4 @@
+filepath|filename|checksmval|isdup|ts|lookupkey
+/codebase/data_custodian/3c08d93e-fcab-11ea-ae55-0242ac11000a/in/|tabel|"tabel_6.asc"=>"fc223d8dd7ac18945cee949b808808d2"|true|2020-09-22 08:11:43|DenmarkSST_SO_Load
+/codebase/data_custodian/cc71edc6-fcd3-11ea-b012-0242ac11002e/in/|table|"table_2.asc"=>"aec45f6865cb111039f718a7fedd4663"|false|2020-09-22 13:02:58|DenmarkSST_SO_Load
+/codebase/data_custodian/f9cb683e-fd6d-11ea-932d-0242ac11002e/in/|Data|"Data_20200612.csv"=>"53d585ab162f2a9a9ab3e642baefe9b4"|false|2020-09-23 07:25:37|DenmarkAmgros_SI_Load
