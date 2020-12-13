@@ -1,5 +1,0 @@
-010189                    Orifarm                         OR
-010191                    Pharma-Skan                     PS
-010382                    Bracco                            
-010426                    GlaxoSmithKline                   
-010458                    Septodont                         
